@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title> PERFIL</title>
+</head>
+ <body>
+<?php
+  $v1 = array(
+
+      'img' => 'https://icon-icons.com/icons2/1897/PNG/64/profile_120907.png',
+      'nome' => 'nome:edneia magalhães rodrigues',
+      'apelido' => 'apelido: Neia',
+      'rua' => 'rua:Alto Boa Vista',
+      'bairro' => 'bairro: Mutans',
+      'cidade' => 'cidade: Guanambi',
+      'email' => 'email: neiarodrigues163@gmail.com',
+      'curso' => 'curso: Infomática para iternet',
+      'disciplina' => 'disciplina: Programação de sistemas web',
+    );
+   echo ("perfil do usuário <br>");
+   echo ('<img src='. $v1['img'] .'>');
+   echo ('<br>');
+   echo ( $v1 ['nome']);
+   echo ('<br>');
+   echo ( $v1 ['apelido']);
+   echo ('<br>');
+   echo ( $v1 ['rua']);
+   echo ('<br>');
+   echo ( $v1 ['bairro']);
+   echo ('<br>');
+   echo ( $v1 ['cidade']);
+   echo ('<br>');
+   echo ( $v1 ['email']);
+   echo ('<br>');
+   echo ( $v1 ['curso']);
+   echo ('<br>');
+   echo ( $v1 ['disciplina']);
+?>
+    </body>
+
+</html>
